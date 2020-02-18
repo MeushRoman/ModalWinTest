@@ -15,13 +15,9 @@ namespace WebApplication3.Controllers
         }
 
         [HttpPost]
-        public FileResult PartialTestView(string ObjectId)
-        {
+        public void PartialTestView(string ObjectId)
+        {           
             var res = ObjectId;
-
-            throw new Exception();
-            
-            //return
         }
     }
 }
